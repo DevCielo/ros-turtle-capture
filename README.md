@@ -43,8 +43,9 @@ The **Turtlesim "Catch Them All" Project** was created as a learning exercise to
    Navigate to your workspace root (`ros2_ws`) and build it:
    ```bash
    colcon build
-   source install/setup.bash```
+   source install/setup.bash
 2. **Launch the application** (NOT CURRENTLY IMPLEMENTED):
    Use the launch file to start all nodes with configured paramters
-   ```ros2 launch my_robot_bringup catch_them_all.launch.py
+   ```bash
+   ros2 launch my_robot_bringup catch_them_all.launch.py
    
